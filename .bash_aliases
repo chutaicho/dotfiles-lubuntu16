@@ -1,5 +1,2 @@
 alias cleancrash='sudo rm /var/crash/*'
-alias houdini-indie='cd /opt/hfs16.5.439/bin && ./hindie'
-alias unity2018='cd ~/Unity-2018.2.0b2/Editor && ./Unity'
-alias unity2017='cd ~/Unity-2017.3.1f1/Editor && ./Unity'
 alias clock='TZ="Spain" date && date'

@@ -12,6 +12,7 @@ options=(
     -lines           "5"
     -bw              "2"
     -line-margin     "5"
+    -eh              "1"
     -hide-scrollbar
     # -sidebar-mode
     -fixed-num-lines 

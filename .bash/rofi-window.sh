@@ -8,8 +8,8 @@ options=(
     -padding         "20"
     -lines           "5"
     -bw              "2"
-    -eh              "2"
     -line-margin     "5"
+    -eh              "2"
     -hide-scrollbar
     -fixed-num-lines 
     -kb-row-select   ""
