@@ -28,12 +28,12 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
                              , "--normal"   , "grey"
                              , "--high"     , "darkorange"
                              ] 50
-                    , Run Battery [ "-t", "<acstatus>: <left>% - <timeleft>", "--",
+                    , Run Battery [ "-t", "<acstatus>: <left>%", "--",
 	                        --"-c", "charge_full",
 	                        "-O", "AC",
 	                        "-o", "Bat",
-	                        "-h", "green",
-	                        "-l", "red"
+	                        "-h", "grey",
+	                        "-l", "darkorange"
                             ] 10
                     ]
        , sepChar = "%"
