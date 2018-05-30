@@ -20,7 +20,7 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
                     , Run Com "uname" ["-s","-r"] "" 36000
                     , Run Date "%a %b %_d %Y %H:%M" "date" 10
                     , Run Com ".bash/input-mode.sh" [] "fcitx" 5
-                    , Run CoreTemp       [ "--template" , "Temp: <core0>°C - <core1>°C"
+                    , Run CoreTemp [ "--template" , "Temp: <core0>°C - <core1>°C"
                              , "--Low"      , "70"        -- units: °C
                              , "--High"     , "80"        -- units: °C
                              , "--low"      , "grey"
@@ -30,6 +30,6 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %cpu% | %memory% | %coretemp% | %fcitx% }\
-                    \{ %date% "
+       , template = " %date% }\
+                    \{ %fcitx% | %cpu% | %memory% | %coretemp% "
 }
