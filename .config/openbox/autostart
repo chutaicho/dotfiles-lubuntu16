@@ -1,3 +1,4 @@
-stalonetray --dockapp-mode simple &
+# stalonetray --dockapp-mode simple &
 xsetroot -solid "#202020" &
+xmobar &
 guake &

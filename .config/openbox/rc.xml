@@ -120,12 +120,11 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>3</number>
+    <number>2</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>1</name>
       <name>2</name>
-      <name>3</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -177,6 +176,24 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
+
+    <!-- Keybinding for Volume management -->
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <command>amixer -D pulse sset Master 10%+ unmute</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <command>amixer -D pulse sset Master 10%- unmute</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute">
+        <command>amixer -D pulse sset Master toggle</command>
+      </action>
+    </keybind>
+
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
@@ -337,6 +354,9 @@
     <keybind key="W-Down">        # HalfLowerScreen
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo"><x>0</x><y>-0</y><width>100%</width><height>50%</height></action>
+    </keybind>
+    <keybind key="W-m">
+      <action name="ToggleMaximize"/>
     </keybind>
     <!-- Keybindings for running applications -->
     <!-- <keybind key="W-e">
