@@ -18,8 +18,9 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
        , commands = [ Run Cpu ["-L","3","-H","50","--normal","white","--high","red"] 10
                     , Run Memory ["-t","Mem: <usedratio>%"] 10
                     , Run Com "uname" ["-s","-r"] "" 36000
-                    , Run Date "%a %b %_d %Y %H:%M" "date" 10
+                    , Run Date "%a / %_d / %b / %Y / %H:%M" "date" 10
                     , Run Com ".bash/input-mode.sh" [] "fcitx" 5
+                    , Run Com ".bash/get-volume.sh" [] "vol" 10
                     , Run CoreTemp [ "--template" , "Temp: <core0>°C - <core1>°C"
                              , "--Low"      , "70"        -- units: °C
                              , "--High"     , "80"        -- units: °C
@@ -31,5 +32,5 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
        , sepChar = "%"
        , alignSep = "}{"
        , template = " %date% }\
-                    \{ %fcitx% | %cpu% | %memory% | %coretemp% "
+                    \{ %fcitx% | %vol% | %cpu% | %memory% | %coretemp% "
 }
