@@ -28,7 +28,7 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
                              , "--normal"   , "grey"
                              , "--high"     , "darkorange"
                              ] 50
-                    , Run Battery [ "-t", "<acstatus>: <left>%", "--",
+                    , Run Battery [ "-t", "<acstatus>: <left>% <timeleft>", "--",
 	                        --"-c", "charge_full",
 	                        "-O", "AC",
 	                        "-o", "Bat",
