@@ -126,7 +126,7 @@
       <name>1</name>
       <name>2</name>
     </names>
-    <popupTime>875</popupTime>
+    <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
        desktops.  Set this to 0 to disable the popup. -->
   </desktops>
@@ -176,7 +176,6 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
-
     <!-- Keybinding for Volume management -->
     <keybind key="F3">
       <action name="Execute">
@@ -193,7 +192,6 @@
         <command>amixer -D pulse sset Master toggle</command>
       </action>
     </keybind>
-
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
