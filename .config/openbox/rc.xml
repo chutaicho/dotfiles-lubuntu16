@@ -177,17 +177,20 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybinding for Volume management -->
-    <keybind key="F3">
+    <!-- <keybind key="F3"> -->
+    <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
         <command>amixer -D pulse sset Master 5%+ unmute</command>
       </action>
     </keybind>
-    <keybind key="F2">
+    <!-- <keybind key="F2"> -->
+    <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
         <command>amixer -D pulse sset Master 5%- unmute</command>
       </action>
     </keybind>
-    <keybind key="F1">
+    <!-- <keybind key="F1"> -->
+    <keybind key="XF86AudioMute">
       <action name="Execute">
         <command>amixer -D pulse sset Master toggle</command>
       </action>

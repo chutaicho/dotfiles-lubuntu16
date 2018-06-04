@@ -21,6 +21,7 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
                     , Run Date "%a / %_d / %b / %Y / %H:%M" "date" 10
                     , Run Com ".bash/input-mode.sh" [] "fcitx" 5
                     , Run Com ".bash/get-volume.sh" [] "vol" 10
+                    , Run Com ".bash/get-desktop.sh" [] "desktop" 10
                     , Run CoreTemp [ "--template" , "Temp: <core0>°C - <core1>°C"
                              , "--Low"      , "70"        -- units: °C
                              , "--High"     , "80"        -- units: °C
@@ -39,5 +40,5 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
        , sepChar = "%"
        , alignSep = "}{"
        , template = " %date% }\
-                    \{ %fcitx% / %vol% / %cpu% / %memory% / %coretemp% / %battery% "
+                    \{ %desktop% / %fcitx% / %vol% / %cpu% / %memory% / %coretemp% / %battery% "
 }
