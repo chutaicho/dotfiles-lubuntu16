@@ -1,0 +1,5 @@
+background "#202020"
+icon_size 24
+kludges force_icons_size
+dockapp_mode simple
+
