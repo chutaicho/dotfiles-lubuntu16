@@ -157,7 +157,7 @@
     <right>0</right>
   </margins>
   <dock>
-    <position>Bottom</position>
+    <position>BottomRight</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
@@ -166,7 +166,7 @@
     <!-- 'Above', 'Normal', or 'Below' -->
     <direction>Vertical</direction>
     <!-- 'Vertical' or 'Horizontal' -->
-    <autoHide>no</autoHide>
+    <autoHide>yes</autoHide>
     <hideDelay>300</hideDelay>
     <!-- in milliseconds (1000 = 1 second) -->
     <showDelay>300</showDelay>
@@ -178,19 +178,19 @@
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybinding for Volume management -->
     <keybind key="F3">
-    <!-- <keybind key="XF86AudioRaiseVolume"> -->
+      <!-- <keybind key="XF86AudioRaiseVolume"> -->
       <action name="Execute">
         <command>amixer -D pulse sset Master 5%+ unmute</command>
       </action>
     </keybind>
     <keybind key="F2">
-    <!-- <keybind key="XF86AudioLowerVolume"> -->
+      <!-- <keybind key="XF86AudioLowerVolume"> -->
       <action name="Execute">
         <command>amixer -D pulse sset Master 5%- unmute</command>
       </action>
     </keybind>
     <keybind key="F1">
-    <!-- <keybind key="XF86AudioMute"> -->
+      <!-- <keybind key="XF86AudioMute"> -->
       <action name="Execute">
         <command>amixer -D pulse sset Master toggle</command>
       </action>
