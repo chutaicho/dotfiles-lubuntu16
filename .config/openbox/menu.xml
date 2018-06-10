@@ -14,8 +14,8 @@
   </item> -->
   <!-- This requires the presence of the 'menu' package to work -->
   <!-- <menu id="/Debian" /> -->
-  <separator />
-  <menu id="client-list-menu" />
+  <!-- <separator />
+  <menu id="client-list-menu" /> -->
   <separator />
   <item label="ObConf">
     <action name="Execute"><execute>obconf</execute></action>
