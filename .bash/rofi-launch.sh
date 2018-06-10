@@ -22,8 +22,9 @@ options=(
     -bg "#000000"
     -fg "#CCCCCC"
     -bc "#333333"
-    -hlbg "#D53864"
+    #-hlbg "#D53864"
     -hlfg "#000000"
+    -hlbg "#CCCCCC"
     # -hlbg "#2D6DFF"
     # -bgalt "#222222"
 )
