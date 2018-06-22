@@ -2,5 +2,7 @@
 # cd /opt/nonotifs/nonotifs && ./run_nn &
 nonotif &
 xsetroot -solid "#202020" &
+lxpanel &
+alarm-clock-applet &
 sleep 1 && guake &
-sleep 3 && xmobar &
+#sleep 3 && xmobar &
