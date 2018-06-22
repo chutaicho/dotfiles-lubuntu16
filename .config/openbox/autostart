@@ -1,4 +1,6 @@
 # stalonetray --dockapp-mode simple &
+# cd /opt/nonotifs/nonotifs && ./run_nn &
+nonotif &
 xsetroot -solid "#202020" &
 sleep 1 && guake &
 sleep 3 && xmobar &
