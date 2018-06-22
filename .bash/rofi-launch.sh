@@ -9,7 +9,7 @@ options=(
     -font            "Ubuntu Mono 14"
     -width           "700"
     -padding         "20"
-    -lines           "10"
+    -lines           "5"
     -bw              "2"
     -line-margin     "5"
     -eh              "1"
