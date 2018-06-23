@@ -21,7 +21,7 @@ options=(
     -separator-style "none"
     -bg "#000000"
     -fg "#CCCCCC"
-    -bc "#333333"
+    -bc "#303030"
     #-hlbg "#D53864"
     -hlfg "#000000"
     -hlbg "#CCCCCC"
