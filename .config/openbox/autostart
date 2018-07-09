@@ -2,5 +2,6 @@
 xsetroot -solid "#202020" &
 lxpanel &
 alarm-clock-applet &
+xcompmgr -c -C -o.25 -r4 -t-5.5 -l-5.5 & 
 sleep 1 && guake &
 #sleep 3 && xmobar &
