@@ -1,8 +1,8 @@
 # stalonetray --dockapp-mode simple &
 # cd /opt/nonotifs/nonotifs && ./run_nn &
-nonotif &
-xsetroot -solid "#202020" &
+xsetroot -solid "#303030" &
 lxpanel &
+nonotif &
 alarm-clock-applet &
 sleep 1 && guake &
 #sleep 3 && xmobar &
