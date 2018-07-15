@@ -1,11 +1,9 @@
-hsetroot -solid "#404040" &
+hsetroot -solid "#202020" &
 compton -cC -o 0.5 -r 4 -t -5 -l -5 &
 lxpanel &
 nonotif &
-alarm-clock-applet &
+# alarm-clock-applet &
 sleep 1 && guake &
-
-
 
 # stalonetray --dockapp-mode simple &
 # cd /opt/nonotifs/nonotifs && ./run_nn &

@@ -6,11 +6,11 @@ options=(
     # -show            "combi"
     # -combi-modi      "run,drun"
     -show            "run"
-    -font            "Ubuntu Mono 14"
+    -font            "Ubuntu Mono 13"
     -width           "700"
     -padding         "20"
     -lines           "5"
-    -bw              "2"
+    #-bw              "2"
     -line-margin     "5"
     -eh              "1"
     -hide-scrollbar
