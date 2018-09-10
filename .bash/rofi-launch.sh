@@ -6,27 +6,24 @@ options=(
     # -show            "combi"
     # -combi-modi      "run,drun"
     -show            "run"
-    -font            "Ubuntu Mono 14"
-    -width           "700"
-    -padding         "20"
-    -lines           "5"
-    -bw              "2"
+    -font            "DejaVu Sans 16"
+    -width           "800"
+    -padding         "25"
+    -lines           "4"
+    -opacity         "90"
     -line-margin     "5"
     -eh              "1"
     -hide-scrollbar
-    # -sidebar-mode
+
     -fixed-num-lines 
     -kb-row-select   ""
     -fuzzy           "True"
     -separator-style "none"
     -bg "#000000"
-    -fg "#CCCCCC"
+    -fg "#FFFFFF"
     -bc "#303030"
-    #-hlbg "#D53864"
-    -hlfg "#000000"
-    -hlbg "#CCCCCC"
-    # -hlbg "#2D6DFF"
-    # -bgalt "#222222"
+    -hlfg "#000"
+    -hlbg "#cccccc"
 )
 
 rofi "$@" "${options[@]}"
