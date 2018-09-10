@@ -3,7 +3,7 @@
 
 options=(
     -show            "window"
-    -font            "Ubuntu Mono 14"
+    -font            "Ubuntu 14"
     -width           "700"
     -padding         "20"
     -lines           "5"
@@ -16,7 +16,7 @@ options=(
     -fuzzy           "True"
     -separator-style "none"
     -bg              "#000000"
-    -fg              "#CCCCCC"
+    -fg              "#FFFFFF"
     -bc              "#333333"
     -hlbg            "#404040"
     -hlbg-active     "#404040"
